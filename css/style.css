@@ -3,41 +3,95 @@ section
 {
     border: 2px solid black;
     box-shadow: 3px 3px 5px black;
-    padding: 3px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 7px;
 }
 body {
     background-color: #4ABDAC;
     color: #DFDCE3;
+    margin: 0;
+    box-sizing: border-box;
+ 
+ 
+ 
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
     align-items: center;
     justify-content: center;
-    color: #F7b733;
+    color: #f7b733;
+    text-align: center;
     
 }
 nav{
     border: 2px solid black;
-    padding: 10px;
+    padding: 14px 16px;
+    background-color: #F7b733;
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
-#historia {
+.btn {
  
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 14px 20px;
     background-color:#F7b733;
     color: #DFDCE3;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    cursor: pointer;
+    height: 10px;
+    border: 7px solid hsla(40, 53%, 30%, 0.58);
+    border-radius: 4px;
+    display: block;
+    float: inline-start;
+    overflow: hidden;
+
+
 }
-#loja {
+
+.dif {
  
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 14px 16px;
     background-color:#F7b733;
     color: #DFDCE3;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    height: 10px;
+    border: 7px solid hsla(40, 53%, 30%, 0.58);
+    display: block;
+    float: left;
+    align-items: center;
+}
+.shop {
+ 
+    
+    padding: 14px 16px;
+    background-color:#F7b733;
+    color: #DFDCE3;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    cursor: pointer;
+    height: 10px;
+    float: inline-start;
+    border: 7px solid hsla(40, 53%, 30%, 0.58);
+}
+.dif:hover {
+    transition: 0.5s;
+    height: 15px;
+    width: 130px;
+}
+.btn:hover {
+    transition: 0.5s;
+    height: 15px;
+    width: 130px;
+}
+.shop:hover {
+    transition: 0.5s;
+    height: 15px;
+    width: 80px;
 }
