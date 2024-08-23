@@ -8,7 +8,7 @@ section
     border-radius: 7px;
 }
 body {
-    background-color: #4ABDAC;
+    background: linear-gradient(#4ABDAC, darkgrey );
     color: #DFDCE3;
     margin: 0;
     box-sizing: border-box;
@@ -100,4 +100,76 @@ nav{
     width: 80px;
     color: #333;
     background-color: #fff;
+}
+aside {
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+    padding: 25px;
+    border-radius: 7px;
+    float: right;
+    display: block;
+    width: 50%;
+    margin: 2px;
+
+    height: 50%;
+    }
+.dist {
+    float: left;
+    display: block;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 7px;
+    padding: 30px;
+    width: 50%;
+    margin: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dts {
+    padding: 10px;
+    display: flex;
+    height: 20 px;
+
+
+}
+.card {
+    background-color: #fff;
+    width: 94%;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.card section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+
+}
+.card h1 {
+    font-size: 1.2rem;
+}
+.card h2 {
+    font-size: .9rem;
+    color: #aaaa;
+}
+.card button {
+    background-color: #2192FF;
+    height: 35px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+
 }
