@@ -6,6 +6,7 @@ section
     padding: 20px;
     margin: 20px;
     border-radius: 7px;
+    background-color: #4ABDAC;
 }
 body {
     background: linear-gradient(#4ABDAC, darkgrey );
@@ -135,7 +136,7 @@ aside {
 
 }
 .card {
-    background-color: #fff;
+    background-color: #4ABDAC;
     width: 94%;
     height: 260px;
     border-radius: 12px;
@@ -152,7 +153,8 @@ aside {
     justify-content: center;
     align-items: center;
     gap: 4px;
-    height: 50%;
+    height: 80%;
+    background-color: #aaaa;
 
 }
 .card h1 {
@@ -160,7 +162,7 @@ aside {
 }
 .card h2 {
     font-size: .9rem;
-    color: #aaaa;
+    color: #fff;
 }
 .card button {
     background-color: #2192FF;
