@@ -1,1 +1,0 @@
-By Luan Portes Alves
