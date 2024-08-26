@@ -3,35 +3,49 @@ section
 /* Nome do Estudante: Luan Portes Alves
  CTII117 */
 {
-    border: 2px solid black;
-    box-shadow: 3px 3px 5px black;
+    
+    box-shadow: 3px 3px 5px #102925be;
     padding: 20px;
     margin: 20px;
     border-radius: 7px;
-    background-color: #4ABDAC;
+    background-color: #725C3A;
+    display: flex;
+    flex: auto;
 }
 body {
-    background: linear-gradient(#4ABDAC, darkgrey );
-    color: #DFDCE3;
+    background-color: #809671;
+    color: #E5D2B8;
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex: auto;
  
  
  
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+
     align-items: center;
     justify-content: center;
-    color: #f7b733;
     text-align: center;
+    color: #725C3A;
     
+    display: grid;
+
+    
+}
+
+figure {
+    display: flex;
+    flex: auto;
 }
 nav{
     border: 2px solid black;
     padding: 14px 16px;
-    display: inline;
-    background-color: #333;
+display: inline;
+    background-color: #532311c2;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -105,21 +119,20 @@ nav{
     background-color: #fff;
 }
 aside {
-    border: 2px solid black;
     box-shadow: 3px 3px 5px black;
     padding: 25px;
     border-radius: 7px;
     float: right;
-    display: block;
+    display: flex;
+    background-color: #642b16e5;
     width: 50%;
     margin: 2px;
-
     height: 50%;
-    }
+}
+
 .dist {
     float: left;
     display: block;
-    border: 2px solid black;
     box-shadow: 3px 3px 5px black;
     border-radius: 7px;
     padding: 30px;
@@ -128,6 +141,7 @@ aside {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #642b16e5;
     
 }
 .dts {
@@ -138,7 +152,7 @@ aside {
 
 }
 .card {
-    background-color: #4ABDAC;
+    background-color: #725C3A;
     width: 94%;
     height: 260px;
     border-radius: 12px;
@@ -156,15 +170,17 @@ aside {
     align-items: center;
     gap: 4px;
     height: 80%;
-    background-color: #aaaa;
+    background-color: #732F17;
+    flex: auto;
 
 }
 .card h1 {
     font-size: 1.2rem;
+     color: #E5E0D8;
 }
 .card h2 {
     font-size: .9rem;
-    color: #fff;
+    color: #BF7B54
 }
 .card button {
     background-color: #2192FF;
@@ -175,5 +191,9 @@ aside {
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
+    border-radius: 5px;
 
+}
+.card button:hover{
+    background-color: #1b79d1a1;
 }
