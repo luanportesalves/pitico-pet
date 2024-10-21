@@ -157,13 +157,14 @@ aside {
 }
 .card {
 
-    width: 94%;
+    width: 70%;
     height: 260px;
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex: auto;
 
 }
 .card section {
@@ -175,7 +176,7 @@ aside {
     height: 80%;
     background-color: #732F17;
     flex: auto;
-    width: 80%;
+    width: 70%;
 
 }
 .card h1 {
