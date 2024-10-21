@@ -1,14 +1,27 @@
 @charset "UTF-8";
+@media screen and (max-width: 600px ) {
+#centro {
+    width: 4800px;
+    height: 480px;
+}
+}
+@media screen and (min-width: 992x ) {
+    #centro{
+        width: 600px;
+        height: 600px;
+    }
+}
+
 section
 /* Nome do Estudante: Luan Portes Alves
  CTII117 */
 {
     
-    box-shadow: 3px 3px 5px #102925be;
+    
     padding: 20px;
     margin: 20px;
     border-radius: 7px;
-    background-color: #725C3A;
+    color: #463324;
     display: block;
     flex: auto;
     text-align: justify;
@@ -39,11 +52,12 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #725C3A;
-    
-    display: grid;
+    color: #463324;
+    height: 270px;
+display: grid;
+    background: linear-gradient(#e4e1e1 ,#36302C);
 
-    
+    width: 100%;
 }
 
 figure {
@@ -51,106 +65,82 @@ figure {
     flex: auto;
 }
 nav{
-    border: 2px solid black;
-    padding: 14px 16px;
-display: inline;
-    background-color: #532311c2;
-    position: fixed;
-    width: 100%;
+
+    padding: 14px;
+height: 10px;
+    background-color: #8B6343;
+
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+
 }
-.btn {
- 
-    padding: 14px 16px;
+.sobre {
+    padding-right: 7px;
     color: #DFDCE3;
     cursor: pointer;
-    height: 10px;
-    float: left;
-    border-radius: 7px;
+    height: 100% ;
+    float:none;
     flex: auto;
-
-    overflow: hidden;
+display: inline;
     text-decoration: none;
-
+align-items: center;
+font-family: "Merriweather", serif;
 
 }
 
 .dif {
- 
-    padding: 14px 16px;
+    padding-left: 7px;
     display: inline;
     color: #DFDCE3;
     cursor: pointer;
-    height: 10px;
+    height: 100%;
     flex: auto;
     align-items: center;
-    border-radius: 7px;
     text-decoration: none;
-    float: left;
+    float: none;
+    font-family: "Merriweather", serif;
 }
    
-.shop {
- 
+
+.sobre:hover {
+    transition: 0.5s;
+    height: 15px;
+    width: 130px;
+    color: #36302C;
+    background-color: #7a5b40;
     
-    padding: 14px 16px;
-    display: inline;
-    color: #DFDCE3;
-
-    cursor: pointer;
-    height: 10px;
-    flex: auto;
-    text-decoration: none;
-    float: left;
-    border-radius: 7px;
-
 }
 .dif:hover {
     transition: 0.5s;
     height: 15px;
     width: 130px;
-    color: #333;
-    background-color: #fff;
+    color: #36302C;
+    background-color: #7a5b40;
 }
-.btn:hover {
-    transition: 0.5s;
-    height: 15px;
-    width: 130px;
-    color: #333;
-    background-color: #fff;
-}
-.shop:hover {
-    transition: 0.5s;
-    height: 15px;
-    width: 80px;
-    color: #333;
-    background-color: #fff;
-}
+
 aside {
-    box-shadow: 3px 3px 5px black;
+
     padding: 25px;
-    border-radius: 7px;
-    float: right;
     display: flex;
-    background-color: #642b16e5;
-    width: 50%;
+
+    
     margin: 2px;
     height: 600px;
+    align-items: center;
 }
 
 .dist {
     float: left;
     display: block;
-    box-shadow: 3px 3px 5px black;
+
     border-radius: 7px;
     padding: 30px;
-    width: 50%;
+    
     margin: 2px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #642b16e5;
+
     
 }
 .dts {
@@ -161,11 +151,10 @@ aside {
 
 }
 .card {
-    background-color: #725C3A;
+
     width: 94%;
     height: 260px;
     border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaaa;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,4 +194,41 @@ aside {
 }
 .card button:hover{
     background-color: #1b79d1a1;
+}
+#diferenciais {
+    background-color: #8B6343;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #E5E0D8;
+    padding: 4px;
+    margin-bottom: 0%;
+    padding-left: 9px;
+    font-family: "Merriweather", serif;
+    
+}
+ul {
+    background-color: #B5713a;
+    margin-top: 0%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#local {
+    background: linear-gradient(to right, #B5713a, #d3c4ac);
+    text-decoration: none;
+    color: #732F17;
+    border-radius: 3px;
+}
+#t1 {
+    background: linear-gradient(to right, #B5713a, #d3c4ac);
+    text-decoration: none;
+    color: #732F17;
+    border-radius: 3px;
+    padding-left: 2px;
+}
+#t2 {
+    background: linear-gradient(to right, #B5713a, #d3c4ac);
+    text-decoration: none;
+    color: #732F17;
+    border-radius: 3px;
+    padding-left: 2px;
 }
