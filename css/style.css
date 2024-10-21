@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @media screen and (max-width: 600px ) {
 #centro {
-    width: 480px;
+    width: 320px;
     height: 240px;
 }
 }
 @media screen and (max-width:768px ) and (min-width:600px) {
     #centro {
-        width: 500px;
-        height: 500px;
+        width: 480px;
+        height: 480px;
     }
 }
 @media screen and (min-width: 992x ) {
@@ -176,6 +176,7 @@ aside {
     height: 80%;
     background-color: #732F17;
     flex: auto;
+    width: 80%;
 
 }
 .card h1 {
