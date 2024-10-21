@@ -5,6 +5,12 @@
     height: 240px;
 }
 }
+@media screen and (max-width:768px ) and (min-width:600px) {
+    #centro {
+        width: 500px;
+        height: 500px;
+    }
+}
 @media screen and (min-width: 992x ) {
     #centro{
         width: 600px;
