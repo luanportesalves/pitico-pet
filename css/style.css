@@ -126,12 +126,11 @@ font-family: "Merriweather", serif;
 
 aside {
 
-    padding: 25px;
+
     display: flex;
 
     
     margin: 2px;
-    height: 600px;
     align-items: center;
 }
 
