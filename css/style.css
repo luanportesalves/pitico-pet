@@ -168,15 +168,18 @@ aside {
 
 }
 .card section {
-    display: flex;
+     display: flex  ; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4px;
-    height: 80%;
+height: 80%;
     background-color: #732F17;
     flex: auto;
-    width: 30%;
+    width: 50%;
+    float: none;
+    margin: 5px;
+    
 
 }
 .card h1 {
