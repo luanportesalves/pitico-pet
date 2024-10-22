@@ -212,19 +212,24 @@ aside {
 height: 90%;
     background-color: #732F17;
     flex: auto;
-    margin-right: 10x;
+    
     padding: 8px;
     width: 90%;
     line-height: 17px;
+    margin-left: 30px;
     
 
 }
+.card img {
+    width: 380;
+    height: 360;
+}
 .card h1 {
-    font-size: 1.2rem;
-     color: #E5E0D8;
+    font-size: 20px;
+     color: #e5E0D8;
 }
 .card h2 {
-    font-size: .9rem;
+    font-size: 15px;
     color: #BF7B54
 }
 .card button {
