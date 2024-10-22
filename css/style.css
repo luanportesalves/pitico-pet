@@ -17,6 +17,39 @@
         height: 600px;
     }
 }
+#sb {
+    background-color: #8B6343;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #E5E0D8;
+    padding: 4px;
+    margin-bottom: 0%;
+    padding-left: 9px;
+    font-family: "Merriweather", serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+    
+}
+#info p {
+    background-color: #B5713a;
+    margin: 0%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+#info {
+    background-color: #B5713a;
+    margin: 40px;
+    margin-top: 0%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
 
 section
 /* Nome do Estudante: Luan Portes Alves
@@ -72,9 +105,9 @@ figure {
 }
 nav{
 
-    padding: 14px;
-height: 10px;
-    background-color: #8B6343;
+    padding: 9px;
+
+    background-color: #36302C;
 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,12 +118,15 @@ height: 10px;
     color: #DFDCE3;
     cursor: pointer;
     height: 100% ;
+    width: 100%;
     float:none;
     flex: auto;
 display: inline;
     text-decoration: none;
 align-items: center;
 font-family: "Merriweather", serif;
+margin: 0%;
+
 
 }
 
@@ -113,7 +149,7 @@ font-family: "Merriweather", serif;
     height: 15px;
     width: 130px;
     color: #36302C;
-    background-color: #7a5b40;
+    background-color: #e4e1e1;
     
 }
 .dif:hover {
@@ -121,7 +157,7 @@ font-family: "Merriweather", serif;
     height: 15px;
     width: 130px;
     color: #36302C;
-    background-color: #7a5b40;
+    background-color: #e1e1e1;
 }
 
 aside {
@@ -168,17 +204,18 @@ aside {
 
 }
 .card section {
-     display: flex  ; 
+     display: inline-block  ; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4px;
-height: 80%;
+height: 90%;
     background-color: #732F17;
     flex: auto;
-    width: 50%;
-    float: none;
-    margin: 5px;
+    margin-right: 10x;
+    padding: 8px;
+    width: 90%;
+    line-height: 17px;
     
 
 }
@@ -213,12 +250,16 @@ height: 80%;
     padding: 4px;
     margin-bottom: 0%;
     padding-left: 9px;
-    font-family: "Merriweather", serif;
+    font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
     
 }
 ul {
     background-color: #B5713a;
     margin-top: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -227,18 +268,39 @@ ul {
     text-decoration: none;
     color: #732F17;
     border-radius: 3px;
+    padding: 1px;
 }
 #t1 {
     background: linear-gradient(to right, #B5713a, #d3c4ac);
     text-decoration: none;
     color: #732F17;
     border-radius: 3px;
-    padding-left: 2px;
+    padding: 1px;
 }
 #t2 {
     background: linear-gradient(to right, #B5713a, #d3c4ac);
     text-decoration: none;
     color: #732F17;
     border-radius: 3px;
-    padding-left: 2px;
+    padding: 1px;
+    margin: 4px;
+}
+#t2:hover {
+    text-decoration: underline;
+}
+p {
+    padding: 10px;
+
+      font-family: "Alegreya", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    
+    
+}
+#t1:hover {
+    text-decoration: underline;
+}
+#local:hover {
+    text-decoration: underline;
 }
