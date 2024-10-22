@@ -25,7 +25,6 @@
     padding: 4px;
     margin-bottom: 0%;
     padding-left: 9px;
-    font-family: "Merriweather", serif;
     margin-left: 40px;
     margin-right: 40px;
     font-family: "Arvo", serif;
@@ -81,7 +80,7 @@ body {
 main{
     margin: auto;
     min-width: 320px;
-    max-width: 900px;
+    max-width: 800px;
     background-color: #E5D2B8;
 }
 
@@ -191,75 +190,8 @@ aside {
 
 
 }
-.card {
 
- min-width: 320px;
- max-width: 800px;
-margin: 3px;
-padding: 3px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: auto;
 
-}
-.card section {
-     display: inline-block  ; 
-     
-align-items: center;
-    gap: 4px;
-height: 224px;
-    background-color: #732F17;
-    flex: auto;
-    float: none;
-    padding: 8px;
-    margin: 4px;
-    line-height: 1px;
-    
-
-}
-.card h3 {
-    color: #E5E0D8;
-    text-align: center;
-}
-.card img {
-    padding-left: 65px;
-    width: 380;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    height: 360;
-}
-.card h1 {
-    font-size: 20px;
-     color: #e5E0D8;
-     padding: 1px;
-     text-align: center;
-}
-.card h2 {
-    font-size: 15px;
-    color: #BF7B54;
-    padding: 8px;
-text-align: center;
-}
-.card button {
-    background-color: #2192FF;
-    height: 35px;
-    margin: 10px;
-    border: none;
-    padding: 4px;
-    width: 80%;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
-    align-items: center;
-
-}
-.card button:hover{
-    background-color: #1b79d1a1;
-}
 #diferenciais {
     background-color: #8B6343;
     border-top-left-radius: 8px;
@@ -322,3 +254,121 @@ p {
 #local:hover {
     text-decoration: underline;
 }
+#hub {
+    background: linear-gradient(to right, #8B6343, #E5D2B8);
+    
+    color: #E5E0D8;
+    padding: 4px;
+   
+    padding-left: 9px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+#js{
+    width: 100%;
+    height: 31vh;
+  
+    h2{
+      font-size: clamp(0.9em, 1vw, 2em);
+      margin: 0.2em 0;
+      font-weight: 500;
+    }
+  }
+  
+  .carossel-Container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    overflow: hidden;
+  }
+  
+  .carossel-Slide{
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 90%;
+    overflow: visible;
+    margin: 0 auto;
+    border: 1px solid blue;
+  }
+  
+  .item{
+    position: relative;
+    right: 0;
+    flex: none;
+    /* border: 1px solid yellow; */
+    background-color: yellow;
+    border-radius: 2px;
+    margin-right: 0.2em;
+    height: 21vh;
+    width: 241.6px;
+  
+    /* width: 19.7385620915%; */
+  
+    width: calc(25% - 0.2em);
+  
+  /*  width: 19.63%; */
+  
+    transition: right 1s ease-out;
+  
+    box-sizing: content-box;
+  }
+  
+  .btnCarossel{
+    background: rgba(20,20,20,.5);
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btnCarossel:hover{
+    background: rgba(20,20,20,.65);
+  
+    #seta{
+      box-shadow: 2px -2px 0 1px #fff inset;
+      transition: box-shadow 100ms;
+    }
+  }
+  
+  
+  
+  .BtnBack{
+    left: 0;
+  
+    #seta{
+      position: absolute;
+    padding: 17%;
+    box-shadow: 2px -2px 0 -1px #fff inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    margin: 0 auto;
+    opacity: 0;
+    transition: box-shadow 100ms;
+    transform: rotate(45deg);
+    }
+  }
+  
+  .BtnNext{
+    right: 0;
+  
+    #seta{
+      position: absolute;
+      padding: 17%;
+      box-shadow: 2px -2px 0 -1px #fff inset;
+      border: solid transparent;
+      border-width: 0 0 2px 2px;
+      margin: 0 auto;
+      opacity: 0;
+      transition: box-shadow 100ms;
+    transform: rotate(225deg); 
+    }
+  }
