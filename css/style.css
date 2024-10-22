@@ -193,32 +193,34 @@ aside {
 }
 .card {
 
-    width: 70%;
-    height: 260px;
+
+
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     flex: auto;
 
 }
 .card section {
      display: inline-block  ; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+
     gap: 4px;
-height: 90%;
+height: 100%;
     background-color: #732F17;
     flex: auto;
-    
+    float: none;
     padding: 8px;
     width: 90%;
     line-height: 17px;
     margin-left: 30px;
     
 
+}
+.card span {
+    color: #E5E0D8;
+    text-align: center;
 }
 .card img {
     width: 380;
@@ -227,14 +229,19 @@ height: 90%;
 .card h1 {
     font-size: 20px;
      color: #e5E0D8;
+     padding: 5px;
+     text-align: center;
 }
 .card h2 {
     font-size: 15px;
-    color: #BF7B54
+    color: #BF7B54;
+    padding: 10px;
+text-align: center;
 }
 .card button {
     background-color: #2192FF;
     height: 35px;
+    margin: 10px;
     border: none;
     padding: 4px;
     width: 80%;
