@@ -224,6 +224,9 @@ height: 100%;
 }
 .card img {
     width: 380;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     height: 360;
 }
 .card h1 {
