@@ -15,7 +15,12 @@
     #centro{
         width: 600px;
         height: 600px;
+        text-align: center;
     }
+}
+figure img{
+    height: 100%;
+    width: 100%;
 }
 #sb {
     background-color: #8B6343;
@@ -23,6 +28,7 @@
     border-top-right-radius: 8px;
     color: #E5E0D8;
     padding: 4px;
+    margin-top: 0%;
     margin-bottom: 0%;
     padding-left: 9px;
     margin-left: 40px;
@@ -31,6 +37,9 @@
   font-weight: 700;
   font-style: italic;
     
+}
+main p{
+    margin-top: 0%;
 }
 #info p {
     background-color: #B5713a;
@@ -70,18 +79,25 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    display: flex;
+    display: block;
     flex: auto;
  
  
  
     font-family: Arial, Helvetica, sans-serif;
 }
+#cent{
+    text-align: center;
+    align-items: center;
+}
 main{
-    margin: auto;
+    margin-top: 0%;
+margin: auto;
+
     min-width: 320px;
-    max-width: 800px;
+    max-width: 992px;
     background-color: #E5D2B8;
+    display: block;
 }
 
 
@@ -92,8 +108,9 @@ header{
     text-align: center;
     color: #463324;
     height: 270px;
-display: grid;
+display: block;
     background: linear-gradient(#e4e1e1 ,#36302C);
+    
 
     width: 100%;
 }
@@ -105,11 +122,13 @@ figure {
 nav{
 
     padding: 9px;
-
+display: block;
     background-color: #36302C;
-
+margin: 0%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+
 
 }
 .sobre {
@@ -163,7 +182,7 @@ aside {
 
 
     display: flex;
-
+text-align: center;
     
     margin: 2px;
     align-items: center;
@@ -218,22 +237,28 @@ ul {
     text-decoration: none;
     color: #732F17;
     border-radius: 3px;
-    padding: 1px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #t1 {
     background: linear-gradient(to right, #B5713a, #d3c4ac);
     text-decoration: none;
     color: #732F17;
     border-radius: 3px;
-    padding: 1px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #t2 {
     background: linear-gradient(to right, #B5713a, #d3c4ac);
     text-decoration: none;
     color: #732F17;
     border-radius: 3px;
-    padding: 1px;
+    padding: 2px;
+    padding-left: 5px;
     margin: 4px;
+    padding-right: 5px;
 }
 #t2:hover {
     text-decoration: underline;
