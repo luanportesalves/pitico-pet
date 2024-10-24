@@ -137,26 +137,48 @@ figure {
 nav{
 
     padding: 9px;
-display: block;
+display: flex;
     background-color: #262626;
 margin: 0%;
-    text-align: center;
-
+align-items: center;
+justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0%;
-    width: 100%;
+    width: auto;
+}
+form{
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    
+}
+form input, form button {
+    font-size: 1,2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    
+}
+form button:hover {
+    background-color: whitesmoke;
+    color: #262626;
 }
 .sobre {
-    padding-right: 7px;
-    color: #dcdcdc;
-    cursor: pointer;
-    float:none;
-    flex: auto;
-display: inline;
-    text-decoration: none;
+color: #dcdcdc;
+cursor: pointer;
+justify-content: center;
+padding: 5px;
+    
+text-decoration: none;
 align-items: center;
-font-family: "Merriweather", serif;
-margin: 0%;
+font-family: "Merriweather", serif; 
+
+
 }
 .logo {
     float: left;
@@ -169,27 +191,28 @@ margin: 0%;
 }
 .dif {
     padding-left: 7px;
-    display: inline;
     color: #dcdcdc;
+    padding: 5px;
     cursor: pointer;
-
-    flex: auto;
     align-items: center;
     text-decoration: none;
-    float: none;
     font-family: "Merriweather", serif;
+    padding-right: 0;
 }
 .sobre:hover {
+    padding: 5px;
     transition: 0.5s;
     height: 15px;
-    width: 130px;
-    color: #36302C;
-    background-color: #e4e1e1;   
+    border-radius: 4px;
+    color: #262626;
+    background-color: #dcdcdc;   
 }
 .dif:hover {
+    padding: 5px;
+
     transition: 0.5s;
     height: 15px;
-    width: 130px;
+    border-radius: 4px;
     color: #36302C;
     background-color: #e1e1e1;
 }
